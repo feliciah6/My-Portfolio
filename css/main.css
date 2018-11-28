@@ -1,6 +1,7 @@
 body{
   padding: 0;
   margin:0;
+  width: 100%;
   background: grey;
 }
 .container {
@@ -49,6 +50,10 @@ body{
 }
 footer{
   text-align: center;
+  position: fixed;
+  left:0;
+  bottom:0;
+  width: 100%;
   background-color: #333;
   font-weight: bolder;
   height: 50px;
